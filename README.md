@@ -1,17 +1,18 @@
-# minimal-reproduction-template
-
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+# 32418
 
 ## Current behavior
 
-Explain the current behavior here.
+The golang.org/x/net module was not updated to the latest available version https://pkg.go.dev/golang.org/x/net@v0.27.0. Specifically:
+
+    Current version: v0.0.0-20211029224645-99673261e6eb
+    Updated to: v0.27.0
+    Latest available: v0.30.0
 
 ## Expected behavior
 
-Explain the expected behavior here.
+Update golang.org/x/net module to v0.30.0
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+link to the Renovate issue or Discussion here:
+<https://github.com/renovatebot/renovate/discussions/32418>
